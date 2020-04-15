@@ -38,8 +38,8 @@ def merge_sort( arr ):
     return merge(left, right)
         
 
-    # TO-DO
-    
+#  Time complexity of merge_sort is O(n log n)   
+#  log is a recursive reduction of the number of passes over n?  
 
 merge_sort(arr)
 
