@@ -20,7 +20,7 @@ selection_sort(numbahs)
 
 
       
-numbahs = [23, 53, 90, 254, 34, 36, 3, 78, 67, 70, 94]
+numbahs = [23, 53, 90, 254, 34, 36, 3, 67, 70, 94]
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( numbas ):
@@ -31,7 +31,8 @@ def bubble_sort( numbas ):
                 numbahs[i], numbahs[i +1] = numbahs[i + 1], numbahs[i]
              
     print(f'bubble_sort: {numbahs}')
-
+    return numbahs
+    
 bubble_sort(numbahs)
 
 # compare the first two indices of an array
